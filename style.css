@@ -17,6 +17,9 @@ header {
     align-items: center;
 }
 
+.menu {
+    display: none;
+}
 
 ul{
     list-style: none;
@@ -55,11 +58,12 @@ li:hover {
 
 }
 
-.container_header figure {
+.orange {
     width: 30vw;
     display: flex;
     justify-content: center;
     align-items: right;
+    
 }
 
 
@@ -76,7 +80,7 @@ main {
     width: 60vw;
     position: absolute;
     left: 210px;
-    bottom: 370px;
+    bottom: 420px;
     font-weight: 800;
     font-size: 4.5rem;
     color: white;
@@ -92,7 +96,7 @@ main {
 .container_orange p {    
     width: 37vw;
     position: absolute;
-    left: 210px;
+    left: 215px;
     bottom: 300px;    
     color: white;
     font-size: 1.8rem;    
@@ -100,9 +104,4 @@ main {
 }
 
 
-@media (max-width: 420px) {
-    main {
-        width: 30%;
-    }
-    
-}
+@media
