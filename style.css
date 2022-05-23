@@ -101,5 +101,8 @@ main {
 
 
 @media (max-width: 420px) {
+    main {
+        width: 30%;
+    }
     
 }
