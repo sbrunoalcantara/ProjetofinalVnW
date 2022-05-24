@@ -66,7 +66,7 @@ ul{
 }
 
 
-li:hover {
+header li:hover {
     font-weight: 900;
     transform: scale(120%);
     color: #000000;
@@ -88,9 +88,12 @@ li:hover {
 main {
     max-width: 1920px;
     width: 100%;
-    height: 235vh;
+    height: 250vh;
     background-image: url('/imagens/laranja\ azul\ recorte.png');
     background-repeat: no-repeat;
+    
+    
+    
     
     
     
@@ -104,10 +107,7 @@ main {
     font-weight: 800;
     font-size: 4.5rem;
     color: white;
-    
-    
-  
-    
+       
     
 }
 
@@ -140,8 +140,9 @@ main {
     }
     
     main {
-     width: 758px;
+     width: 100%;
      background-position: 85% 0%;
+     height: 860vh;
      
      
     }
@@ -163,6 +164,14 @@ main {
     }   
          
     
+}
+
+
+main figure {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+   
 }
 
 
@@ -191,7 +200,11 @@ main {
           padding: 20px;
           
       }
+
   }
+
+
+
 
   footer {
       max-width: 1920px;
@@ -199,9 +212,60 @@ main {
       height: 12vh;     
       background-color: #E8E8E8;
       display: flex;
+      justify-content: space-around
+
                
 
   }
 
 
+
+
+
+footer p {
+    position: relative;
+    top: 25px;
+    right: 60px;
+    height: 1.2vh;
+    width: 100%;
+    margin-top: 10px;
+    
+     
+     
+
+
+}
+
+
+
+footer h2 { 
+    display: flex;
+    width: 10vw;
+    align-items: center;
+    justify-content: center;
+
+    
   
+}
+
+
+
+
+.rede_sociais { 
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+
+
+
+footer li:hover {
+    transform: scale(120%);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    
+
+}
+
+
