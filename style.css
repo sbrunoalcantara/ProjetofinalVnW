@@ -15,6 +15,7 @@ header {
     margin: auto;
     height: 15vh;
     align-items: center;
+
 }
 
 .menu {
@@ -36,6 +37,10 @@ header {
 
 }
 
+footer button {
+    display: none;
+}
+
 
 
 
@@ -45,6 +50,7 @@ ul{
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
+    
 
     
 }
@@ -62,6 +68,8 @@ ul{
 .container_menu--list {
     font-weight: 100;
     color: #828282;
+    display: flex;
+    
     
 }
 
@@ -79,10 +87,13 @@ header li:hover {
 .orange {
     width: 30vw;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: right;
     
+    
 }
+
+
 
 
 main {
@@ -127,6 +138,8 @@ main {
 
 
 @media (max-width:760px) {
+
+    
     .menu {
         display: initial;
         width: 50%;
@@ -154,6 +167,7 @@ main {
         
         
     }
+    
 
 
     p {
@@ -161,7 +175,9 @@ main {
         top: 750px;
                 
     
-    }   
+    }
+    
+ 
          
     
 }
@@ -180,6 +196,8 @@ main figure {
     position: relative;
     top: 820px; 
     padding: 120px;
+   
+    
     
   
   }
@@ -188,20 +206,6 @@ main figure {
       padding: 6px;
   }
 
-
-  @media (max-width:760px) {
-      .photo_gallery {
-          position: relative;
-                  
-      }
-
-      .photo_gallery img {
-          height: 520px;
-          padding: 20px;
-          
-      }
-
-  }
 
 
 
@@ -212,7 +216,7 @@ main figure {
       height: 12vh;     
       background-color: #E8E8E8;
       display: flex;
-      justify-content: space-around
+      justify-content: space-around;    
 
                
 
@@ -269,3 +273,103 @@ footer li:hover {
 }
 
 
+@media (max-width:1900px) {
+    main {
+        height: 350vh;
+    }
+}
+
+@media (max-width:1470px) {
+    main {
+        height: 420vh;
+    }
+}
+
+@media (max-width:1200px) {
+    main {
+        height: 415vh;
+    }
+
+    .rede_sociais {
+
+        width: 85%;
+        height: 6vh;
+        justify-content: center;
+        align-items: center;
+        background-color: #7FDBD4;
+        
+        
+
+    }
+
+    footer { 
+    background-color: white;
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+
+    }
+
+    footer h2 {
+        width: 100%;
+        height: 7vh;
+        position: relative;
+        top: 4vh;       
+        
+    }
+
+    footer p { 
+        width: 100%;
+        height: 1.5vh;
+        position: relative;
+        top: 2.5vh;
+        left: 5vh;
+        text-justify: auto;
+        
+        
+        
+        
+        
+        
+    }
+
+    .container_orange h2 { 
+        height: 27vh;
+        position: abolute;
+        
+    
+    }
+
+    footer button {
+        width: 8vw;
+        height: 4vh;
+        display: initial;
+        position: absolute;
+        right: 10.5vh;
+        border: none;
+        background-color: #707070;
+        font-family: 'Montserrat', sans-serif;
+        color: #CCCCCC;
+        font-weight: 700;
+       
+
+    }
+
+
+}
+
+
+
+@media (max-width:1060px) { 
+
+    main { 
+     
+        width: 100%;
+        height: 710vh;
+    
+    }
+}
