@@ -222,7 +222,7 @@ main figure {
 
 
   .photo_gallery img:hover {
-    transform: scale(140%);
+    transform: scale(145%);
     transition: 1.0s ease-in-out;
     cursor: pointer;
     
@@ -242,7 +242,6 @@ main figure {
                
 
   }
-
 
 
 
@@ -394,3 +393,4 @@ footer li:hover {
     
     }
 }
+
