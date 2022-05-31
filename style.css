@@ -50,9 +50,14 @@ ul{
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    
+   
 
     
+}
+
+header li {
+    
+    width: 12vh;
 }
 
 .container_menu{
@@ -215,6 +220,14 @@ main figure {
   }
 
 
+
+  .photo_gallery img:hover {
+    transform: scale(140%);
+    transition: 1.0s ease-in-out;
+    cursor: pointer;
+    
+
+}
 
 
 
